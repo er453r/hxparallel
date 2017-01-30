@@ -79,7 +79,7 @@ class Parallel {
 		var code:String = generateJsCode(data, job);
 
 		return macro {
-			com.er453r.neural.tests.parallel.ParallelRuntime.forEachWorker(${data}, $v{code});
+			com.er453r.parallel.ParallelRuntime.forEachWorker(${data}, $v{code});
 		};
 	}
 }
