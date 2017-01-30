@@ -1,3 +1,3 @@
 # Installation
 
-	haxelib git hxparallel git@github.com:er453r/hxparallel.git
+	 haxelib git parallel git@github.com:er453r/parallel.git
